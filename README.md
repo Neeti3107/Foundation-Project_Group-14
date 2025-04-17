@@ -18,23 +18,24 @@ A complete pipeline to forecast monthly retail sugar prices in India using LSTM-
 
 ## 📁 Project Structure
 
-Foundation-Project_Group-14/
+text```Foundation-Project_Group-14/
 ├── data/
-│   └── cleaned/                      # Cleaned WFP files pushed from pipeline
-├── models/                          # Trained LSTM model + scaler (.h5, .pkl)
+│   └── cleaned/                     # Cleaned WFP files pushed from pipeline
+├── models/                         # Trained LSTM model + scaler (.h5, .pkl)
 ├── notebooks/
-│   ├── eda_report.html              # EDA summary
-│   └── *.ipynb                      # Training, Prediction notebooks (for submission)
-├── app.py                           # Streamlit dashboard
-├── serve_model.py                   # FastAPI endpoint
-├── predict.py                       # Predict future sugar prices
-├── train.py                         # Train LSTM model on latest data
-├── clean_data.py                    # Clean and filter raw sugar price data
-├── download_and_push_wfp_data.py    # Pull latest dataset from WFP
-├── run_pipeline.py                  # Master orchestrator script
-├── forecast_log.csv                 # Log of all forecasts
-├── requirements.txt                 # Python dependencies
-└── README.md                        # This file
+│   ├── eda_report.html             # EDA summary
+│   └── *.ipynb                     # Downloading from WFP url, Cleaning + Profile Report, EDA, Training, Prediction notebooks (for submission)
+├── app.py                          # Streamlit dashboard
+├── serve_model.py                  # FastAPI endpoint
+├── predict.py                      # Predict future sugar prices
+├── train.py                        # Train LSTM model on latest data
+├── clean_data.py                   # Clean and filter raw sugar price data
+├── download_and_push_wfp_data.py   # Pull latest dataset from WFP
+├── run_pipeline.py                 # Master orchestrator script
+├── forecast_log.csv                # Log of all forecasts
+├── requirements.txt                # Python dependencies
+└── README.md                       # This file```
+
 
 ---
 
